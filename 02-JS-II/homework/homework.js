@@ -60,14 +60,7 @@ function devolverString(str) {
     // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
     // De lo contrario, devuelve "false"
     // Tu código:
-    if ( num > 50)
-    {
-      return true;
-    }
-    else
-    {
-      return false;
-    }
+    return num > 50;
   }
   
   function obtenerResto(x, y)
@@ -81,14 +74,7 @@ function devolverString(str) {
     // Devuelve "true" si "num" es par
     // De lo contrario, devuelve "false"
     // Tu código:
-    if ( num % 2 === 0)
-    {
-      return true;
-    }
-    else
-    {
-      return false;
-    }
+    return num % 2 === 0;
   }
   
   function esImpar(num) {
